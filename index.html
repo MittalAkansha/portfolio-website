@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+<header>
+    <h1>My Portfolio</h1>
+</header>
+<section id="about">
+    <h2>About me</h2>
+    <img scr="profile.jpg" alt="My Profile Photo">
+    <p> Hi, I'm Akansha. I am a frontend developer learner
+    and I enjoy creating websites using HTML, CSS and JavaScript.</p>
+    <button onclick="document.getElementById('projects').scrollIntoView()">
+    View My Projects
+</button>
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+    </ul>
+</section>
+
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio website created using HTML, CSS and JavaScript.</p>
+        <a href="#" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Calculator</h3>
+        <p>A simple calculator web app created using HTML, CSS and JavaScript.</p>
+        <a href="#" class="project-btn">View Project</a>
+    </div>
+
+    <div class="project-card">
+        <h3>Login Form</h3>
+        <p>A simple login form designed using HTML and CSS.</p>
+        <a href="#" class="project-btn">View Project</a>
+    </div>
+    
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+
+    <p>Email: akansha@example.com</p>
+    <p>Phone: 9876543210</p>
+    <button>Contact Me</button>
+    <a href="#">GitHub</a>
+<a href="#">LinkedIn</a>
+<a href="#" class="project-btn">Download Resume</a>
+    <form>
+    <input type="text" placeholder="Your Name">
+    <input type="email" placeholder="Your Email">
+    <textarea placeholder="Your Message"></textarea>
+    <button type="submit">Send Message</button>
+</form>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio. All Rights Reserved.</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
